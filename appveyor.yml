@@ -18,7 +18,7 @@ platform:
 # Build script
 build_script:
   - echo %PATH%
-  - dir "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin"
+  - dir "C:\\Program Files (x86)"
   - where qmake
   - where cl.exe
   - where nmake
