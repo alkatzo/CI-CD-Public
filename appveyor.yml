@@ -4,8 +4,8 @@ image: Visual Studio 2019
 # Environment variables
 environment:
   matrix:
-    - arch: x86
-      compiler: msvc2019
+#    - arch: x86
+#      compiler: msvc2019
     - arch: x64
       compiler: msvc2019
   QTDIR: "C:\\Qt\\5.15.2\\msvc2019"
@@ -17,9 +17,9 @@ platform:
   
 # Build script
 build_script:
-  - echo %PATH%
-#  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
-  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\"
+#  - echo %PATH%
+  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
+  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\"
   - where qmake
   - where cl.exe
   - where nmake
