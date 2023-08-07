@@ -18,6 +18,8 @@ platform:
 # Build script
 build_script:
   - echo %PATH%
+  - where qmake
+  - where cl.exe
   - mkdir ..\build
   - cd ..\build
   - qmake ..\CI-CD-Public\CI-CD-App.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
