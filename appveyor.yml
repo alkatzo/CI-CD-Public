@@ -20,6 +20,7 @@ build_script:
   - echo %PATH%
   - where qmake
   - where cl.exe
+  - where nmake
   - mkdir ..\build
   - cd ..\build
   - qmake ..\CI-CD-Public\CI-CD-App.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
