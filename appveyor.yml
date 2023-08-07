@@ -24,6 +24,7 @@ build_script:
 #  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\"
   - dir "C:\Qt\5.15.2\msvc2019\"
   - dir "C:\Qt\5.15.2\msvc2019\include"
+  - dir "C:\Qt\5.15.2\msvc2019\include\QtCore"
   - where qmake
   - where cl.exe
   - where nmake
