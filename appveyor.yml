@@ -9,7 +9,7 @@ environment:
     - arch: x64
       compiler: msvc2019
   QTDIR: "C:\\Qt\\5.15.2\\msvc2019"
-  VC2019: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
+  VC2019: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
   PATH: "%VC2019%;%QTDIR%\\bin;%PATH%"
 
 platform:
