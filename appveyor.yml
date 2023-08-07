@@ -9,7 +9,7 @@ environment:
     - arch: x64
       compiler: msvc2019
   QTDIR: "C:\\Qt\\5.15.2\\msvc2019"
-  VC2019: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.31.31103\\bin\\Hostx64\\x64"
+  VC2019: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\"
   PATH: "%VC2019%;%QTDIR%\\bin;%PATH%"
 
 platform:
@@ -18,10 +18,10 @@ platform:
 # Build script
 build_script:
 #  - echo %PATH%
-  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\"
-  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
-  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild"
-  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\"
+#  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\"
+#  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
+#  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild"
+#  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\"
   - where qmake
   - where cl.exe
   - where nmake
