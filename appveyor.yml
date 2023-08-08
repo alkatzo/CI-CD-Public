@@ -12,7 +12,8 @@ environment:
   PATH: "%QTDIR%\\bin;%PATH%"
 
 platform:
-  - x64
+#  - x64
+  - x86
   
 # Build script
 build_script:
