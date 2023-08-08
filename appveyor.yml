@@ -3,17 +3,17 @@ image: Visual Studio 2019
 
 # Environment variables
 environment:
-  matrix:
-    - arch: x86
-      compiler: msvc2019
-    - arch: x64
-      compiler: msvc2019
+#  matrix:
+#    - arch: x86
+#      compiler: msvc2019
+#    - arch: x64
+#      compiler: msvc2019
   QTDIR: "C:\\Qt\\5.15.2\\msvc2019"
   PATH: "%QTDIR%\\bin;%PATH%"
 
-platform:
+#platform:
 #  - x64
-  - x86
+#  - x86
   
 # Build script
 build_script:
