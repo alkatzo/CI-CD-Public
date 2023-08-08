@@ -17,7 +17,7 @@ platform:
   
 # Build script
 build_script:
-  - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+  - call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 #  - echo %PATH%
 #  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\"
 #  - dir "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
